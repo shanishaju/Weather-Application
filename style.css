@@ -1,0 +1,40 @@
+*{
+    overflow-y: hidden;
+}
+.navbar{
+    height: 15vh;
+    background-color: black;
+    opacity: 0.5;
+}
+body{
+    background-image: url(./Images/dramatic-sky-idyllic-landscape-dusk-generated-by-ai.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxbor{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    /* opacity: 0.8; */
+}
+.input-with-button {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+.search-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
